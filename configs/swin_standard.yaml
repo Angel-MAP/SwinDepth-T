@@ -1,0 +1,23 @@
+model:
+  name: SwinDepthT
+  version: standard
+  embed_dim: 128
+  depths: [2, 2, 18, 2]
+  num_heads: [4, 8, 16, 32]
+  window_size: 7
+
+dataset:
+  train: /path/to/training/data
+  test: /path/to/testing/data
+
+training:
+  batch_size: 8
+  epochs: 50
+  lr: 0.0001
+  weight_decay: 0.01
+  save_path: weights/swin_standard.pth
+
+evaluation:
+  weights_path: weights/swin_standard.pth
+
+device: cuda if torch.cuda.is_available() else 'cpu'
