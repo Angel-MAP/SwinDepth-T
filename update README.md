@@ -63,6 +63,15 @@ Logs are available in both `.txt` (human-readable) and `.csv` (structured) forma
 - Swin-Simple: [TXT](logs/benchmark_results/nyu_swin_simple.txt) | [CSV](logs/benchmark_results/nyu_swin_simple.csv)
 - Swin-Standard: [TXT](logs/benchmark_results/nyu_swin_standard.txt) | [CSV](logs/benchmark_results/nyu_swin_standard.csv)
 
+Pretrained Weights
+
+We provide pretrained model weights for all **SwinDepth-T** variants.  
+These placeholders will be replaced with the actual trained weights soon.
+
+### KITTI-trained Models
+- Swin-Tiny: [Download](weights/swin_tiny.pth)
+- Swin-Simple: [Download](weights/swin_simple.pth)
+- Swin-Standard: [Download](weights/swin_standard.pth)
 
 Citation
 @article{ponrani2025swindeptht,
