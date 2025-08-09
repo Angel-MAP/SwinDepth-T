@@ -38,14 +38,31 @@ python train.py --config configs/swin_tiny.yaml
 4. Run evaluation
 python test.py --weights weights/swin_tiny.pth
 
-Evaluation Results
-Results on KITTI and NYU datasets included in /logs/benchmark_results.
 
 Pre-trained Models
 Download links (hosted here in weights/):
 swin_tiny.pth
 swin_simple.pth
 swin_standard.pth
+
+Evaluation Results
+Results on KITTI and NYU datasets included in /logs/benchmark_results.
+
+Benchmark Results
+
+The following are the benchmark evaluation results for **SwinDepth-T** variants on the KITTI and NYU Depth v2 datasets.  
+Logs are available in both `.txt` (human-readable) and `.csv` (structured) formats.
+
+### KITTI
+- Swin-Tiny: [TXT](logs/benchmark_results/kitti_swin_tiny.txt) | [CSV](logs/benchmark_results/kitti_swin_tiny.csv)
+- Swin-Simple: [TXT](logs/benchmark_results/kitti_swin_simple.txt) | [CSV](logs/benchmark_results/kitti_swin_simple.csv)
+- Swin-Standard: [TXT](logs/benchmark_results/kitti_swin_standard.txt) | [CSV](logs/benchmark_results/kitti_swin_standard.csv)
+
+### NYU Depth v2
+- Swin-Tiny: [TXT](logs/benchmark_results/nyu_swin_tiny.txt) | [CSV](logs/benchmark_results/nyu_swin_tiny.csv)
+- Swin-Simple: [TXT](logs/benchmark_results/nyu_swin_simple.txt) | [CSV](logs/benchmark_results/nyu_swin_simple.csv)
+- Swin-Standard: [TXT](logs/benchmark_results/nyu_swin_standard.txt) | [CSV](logs/benchmark_results/nyu_swin_standard.csv)
+
 
 Citation
 @article{ponrani2025swindeptht,
