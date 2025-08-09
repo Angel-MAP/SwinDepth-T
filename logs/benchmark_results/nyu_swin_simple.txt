@@ -1,0 +1,8 @@
+Benchmark results for NYU Depth v2 - SwinDepth-T (Simple)
+
+AbsRel: 0.101
+RMS: 0.364
+Log10: 0.042
+delta1: 0.906
+delta2: 0.986
+delta3: 0.996

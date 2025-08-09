@@ -1,0 +1,11 @@
+Metric,Value
+AbsRel,0.064
+SqRel,0.232
+RMSE,2.643
+RMSE_log,0.097
+delta<1.25,0.957
+delta<1.25^2,0.994
+delta<1.25^3,0.998
+InferenceTime_ms,35
+FPS,29
+TrainingTime,18 hours
