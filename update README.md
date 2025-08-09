@@ -66,12 +66,12 @@ Logs are available in both `.txt` (human-readable) and `.csv` (structured) forma
 Pretrained Weights
 
 We provide pretrained model weights for all **SwinDepth-T** variants.  
-These placeholders will be replaced with the actual trained weights soon.
+These placeholders replaced with the actual trained weights .
 
 ### KITTI-trained Models
-- Swin-Tiny: [Download](weights/swin_tiny.pth)
-- Swin-Simple: [Download](weights/swin_simple.pth)
-- Swin-Standard: [Download](weights/swin_standard.pth)
+- Swin-Tiny: (weights/swin_tiny.pth)
+- Swin-Simple: (weights/swin_simple.pth)
+- Swin-Standard: (weights/swin_standard.pth)
 
 Citation
 @article{ponrani2025swindeptht,
